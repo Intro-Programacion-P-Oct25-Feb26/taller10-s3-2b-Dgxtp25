@@ -21,7 +21,7 @@ public class Problema4 {
         int[][] A = new int[3][2];
         int[][] B = new int[3][2];
 
-        // Leer matriz A
+   
         System.out.println("Ingrese los valores de la matriz A:");
         for (int i = 0; i < A.length; i++) {
             for (int j = 0; j < A[i].length; j++) {
@@ -30,7 +30,7 @@ public class Problema4 {
             }
         }
 
-        // Leer matriz B
+
         System.out.println("\nIngrese los valores de la matriz B:");
         for (int i = 0; i < B.length; i++) {
             for (int j = 0; j < B[i].length; j++) {
@@ -39,7 +39,7 @@ public class Problema4 {
             }
         }
 
-        // Mostrar matriz A
+  
         System.out.println("\nMatriz A:");
         for (int[] A1 : A) {
             for (int j = 0; j < A1.length; j++) {
@@ -48,7 +48,7 @@ public class Problema4 {
             System.out.println();
         }
 
-        // Mostrar matriz B
+
         System.out.println("\nMatriz B:");
         for (int[] B1 : B) {
             for (int j = 0; j < B1.length; j++) {
@@ -57,7 +57,7 @@ public class Problema4 {
             System.out.println();
         }
 
-        // Comparación de matrices
+
         boolean cumpleCondicion = true;
         boolean existeMayor = false;
 
@@ -72,7 +72,7 @@ public class Problema4 {
             }
         }
 
-        // Resultado final
+
         if (cumpleCondicion && existeMayor) {
             System.out.println("\nLa matriz A es mayor que la matriz B");
         } else {
